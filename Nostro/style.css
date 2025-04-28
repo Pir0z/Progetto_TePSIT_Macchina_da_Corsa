@@ -1,0 +1,44 @@
+/* Imposta il layout */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #282c34;
+    overflow: hidden;
+  }
+  
+  #gameArea {
+    position: relative; /* Essenziale per posizionare gli elementi interni */
+    width: 300px;
+    height: 500px;
+    background: #444;
+    border: 2px solid #fff;
+    overflow: hidden;
+  }
+  
+  #car {
+    position: absolute;
+    bottom: 20px; /* Posizione iniziale della macchina */
+    left: 130px; /* Centra la macchina */
+    width: 40px; /* Larghezza della macchina */
+    height: 70px; /* Altezza della macchina */
+    background-image: url('car.png'); /* Collega l'immagine */
+    background-size: cover; /* Adatta l'immagine alla dimensione dell'elemento */
+    background-repeat: no-repeat;
+    background-position: center; /* Centra l'immagine */
+  }
+  
+  .obstacle {
+    position: absolute;
+    top: -70px; /* Posizione iniziale dell'ostacolo */
+    left: 130px; /* Centra l'ostacolo inizialmente */
+    width: 40px; /* Larghezza dell'ostacolo */
+    height: 70px; /* Altezza dell'ostacolo */
+    background-image: url('obstacle.png'); /* Collega l'immagine */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+    
