@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #282c34;
+    background: #8E44AD;
     overflow: hidden;
   }
   
@@ -13,8 +13,8 @@ body {
     position: relative;
     width: 300px;
     height: 500px;
-    background: #444;
-    border: 2px solid #fff;
+    background: #17B978;
+    border: 2px solid #FFD700;
     overflow: hidden;
   }
   
@@ -24,17 +24,24 @@ body {
     left: 130px;
     width: 40px;
     height: 70px;
-    background: red;
     border-radius: 5px;
   }
   
-  .obstacle {
+  .obstacle1 {
     position: absolute;
     top: -70px;
     left: 130px;
     width: 40px;
     height: 70px;
-    background: yellow;
+    border-radius: 5px;
+  }
+  
+  .obstacle2 {
+    position: absolute;
+    top: -70px;
+    left: 130px;
+    width: 40px;
+    height: 70px;
     border-radius: 5px;
   }
   
