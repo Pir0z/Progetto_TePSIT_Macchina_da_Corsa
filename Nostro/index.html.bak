@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>F.A.M.A Car Run Game</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div>
+    <div id="car">
+		DIV CAR
+	</div>
+    <div class="obstacle"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

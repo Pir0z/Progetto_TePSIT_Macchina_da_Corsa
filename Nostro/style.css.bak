@@ -1,0 +1,4 @@
+/* Imposta il layout */
+#car {
+	background-color: red;
+}
